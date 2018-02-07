@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('step1') {
           steps {
-            sh 'echo `pwd`'
+            sh 'echo 1'
           }
         }
         stage('step1.1') {
